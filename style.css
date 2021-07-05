@@ -17,7 +17,8 @@ body{
             color: lightseagreen;
         }
         section{
-            display : flex
+            display : flex;
+            margin-bottom: 100px;
         }
         .width{
             width: 50%;
@@ -39,4 +40,12 @@ body{
         .top-banner{
             background-image: url(images/top-banner.png);
             background-repeat: no-repeat;
+            text-align: justify;
+        }
+        .dream-big{
+            background-image: url(images/dream-bg.png);
+            background-repeat: no-repeat;
+            background-position: right ;
+
+
         }
