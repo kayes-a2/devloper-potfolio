@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
     }
         .font-size{
             font-size: 50px;
@@ -34,4 +35,8 @@ body{
             background-image: linear-gradient(tomato, orange);
             color: white;
             font-weight: bold;
+        }
+        .top-banner{
+            background-image: url(images/top-banner.png);
+            background-repeat: no-repeat;
         }
