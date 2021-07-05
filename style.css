@@ -67,3 +67,19 @@ body{
             background-repeat: no-repeat;
             background-position: left ;
         }
+        #border{
+            border-left: 7px solid;
+            border-image: linear-gradient(cyan,blue);
+            border-image-slice: 1;
+
+        }
+        .border{
+            border-left: 7px solid;
+            border-image: linear-gradient( purple, skyblue);
+            border-image-slice: 1;
+        }
+        footer{text-align: center;
+        }
+        .span{
+            color: navy;
+        }
