@@ -6,9 +6,16 @@ body{
         .font-size{
             font-size: 50px;
         }
-    .color{
+        .font-h1{
+            font-size: 45px;
+        }
+        .font-h2{
+            font-size: 30px;
+        }
+        
+        .color{
         color: orange;
-    }
+        }
         #pcolor{
             color: lightcoral;
 
@@ -16,7 +23,7 @@ body{
         #wcolor{
             color: lightseagreen;
         }
-        section{
+        .section-flex{
             display : flex;
             margin-bottom: 100px;
         }
@@ -46,6 +53,17 @@ body{
             background-image: url(images/dream-bg.png);
             background-repeat: no-repeat;
             background-position: right ;
-
-
+        }
+        .shadow{
+            width: 40%;
+            margin-left: 5%;
+            margin-right: 5%;
+            box-shadow: 10px 5px 5px skyblue;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .exprience-area{
+            background-image: url(images/exp-bg.png);
+            background-repeat: no-repeat;
+            background-position: left ;
         }
